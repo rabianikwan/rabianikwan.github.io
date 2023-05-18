@@ -259,8 +259,8 @@ textarea {
   font-smoothing: antialiased;
 }
 body {
-  background: url("http://mrcthms.com/assets/images/fleck-white.png"),
-    url("http://mrcthms.com/assets/images/bg.svg"), #e2718d;
+  background: url("fleck-white.png"),
+    url("bg.svg"), #e2718d;
   background-size: auto, 100vw 100vw, auto;
   background-repeat: repeat, no-repeat, repeat;
   background-position: center center, top right, center;
@@ -280,7 +280,7 @@ body {
 }
 .curriculum-vitae,
 .resume {
-  background: url("http://mrcthms.com/assets/images/fleck-white.png"),
+  background: url("fleck-white.png"),
     linear-gradient(
         -45deg,
         #e2718d 25%,
@@ -322,7 +322,7 @@ body {
 @media all and (min-width: 45em) {
   .curriculum-vitae:before,
   .resume:before {
-    background: url("http://mrcthms.com/assets/images/fleck-white.png"),
+    background: url("fleck-white.png"),
       linear-gradient(
           -45deg,
           #e2718d 25%,
@@ -368,7 +368,7 @@ body {
   }
   .curriculum-vitae:after,
   .resume:after {
-    background: url("http://mrcthms.com/assets/images/fleck-white.png"),
+    background: url("fleck-white.png"),
       linear-gradient(
           -45deg,
           #e2718d 25%,
@@ -664,7 +664,7 @@ a:active {
   text-align: right;
 }
 .logo {
-  background: url("s/polygon.svg");
+  background: url("polygon.svg");
   background-size: cover;
   display: flex;
   height: 3.3333333333rem;
@@ -1144,11 +1144,11 @@ a:active {
   top: 0;
 }
 .mask__upper:before {
-  background-image: url("s/mask-tl.svg");
+  background-image: url("mask-tl.svg");
   left: -0.8333333333rem;
 }
 .mask__upper:after {
-  background-image: url("s/mask-tr.svg");
+  background-image: url("mask-tr.svg");
   right: -0.8333333333rem;
 }
 .mask__lower {
@@ -1171,13 +1171,13 @@ a:active {
   bottom: 0;
 }
 .mask__lower:before {
-  background-image: url("m/assets/images/mask-bl.svg");
+  background-image: url("mask-bl.svg");
   bottom: 0;
   left: -0.8333333333rem;
   top: auto;
 }
 .mask__lower:after {
-  background-image: url("m/assets/images/mask-br.svg");
+  background-image: url("mask-br.svg");
   bottom: 0;
   right: -0.8333333333rem;
   top: auto;
